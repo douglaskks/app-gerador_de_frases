@@ -6,5 +6,5 @@
 
 # Imagens do protótipo
 
-<img src="/teste/imagesGit/Tela 1.PNG" alt="Tela 1">
-<img src="/teste/imagesGit/Tela 2.PNG" alt="Tela 2">
+<img src="/imagesGit/Tela 1.PNG" alt="Tela 1">
+<img src="/imagesGit/Tela 2.PNG" alt="Tela 2">
