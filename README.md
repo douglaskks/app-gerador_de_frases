@@ -1,16 +1,10 @@
-# teste
+# Aplicativo Gerador de Frases
 
-A new Flutter project.
+### Esse app foi criado com o intuito de colocar em prática
+### meus conhecimentos no flutter básico e relembrar alguns
+### conceitos em que o flutter se baseia
 
-## Getting Started
+# Imagens do protótipo
 
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+<img src="/teste/imagesGit/Tela 1.PNG" alt="Tela 1">
+<img src="/teste/imagesGit/Tela 2.PNG" alt="Tela 2">

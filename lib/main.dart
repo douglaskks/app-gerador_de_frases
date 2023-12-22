@@ -16,7 +16,12 @@ class Home extends StatefulWidget {
 }
 
 class _HomeState extends State<Home> {
-  var _frases = ["Frase 1", "Frase 2", "Frase 4", "Frase 5"];
+  var _frases = [
+    "A persistência é o caminho do êxito.",
+    "Lute. Acredite. Conquiste. Perca. Deseje. Espere. Alcance. Invada. Caia. Seja tudo o quiser ser, mas, acima de tudo, seja você sempre.",
+    "A vitalidade é demonstrada não apenas pela persistência, mas pela capacidade de começar de novo.",
+    "A coragem não é ausência do medo; é a persistência apesar do medo."
+  ];
 
   var _fraseGerada = "Clique abaixo para gerar uma frase";
 
@@ -40,8 +45,9 @@ class _HomeState extends State<Home> {
       body: Container(
         padding: EdgeInsets.all(16),
         width: double.infinity,
-        decoration:
-            BoxDecoration(border: Border.all(width: 3, color: Colors.amber)),
+        decoration: BoxDecoration(
+            border: Border.all(
+                width: 3, color: const Color.fromARGB(255, 15, 255, 7))),
         child: Column(
           mainAxisAlignment: MainAxisAlignment.spaceEvenly,
           crossAxisAlignment: CrossAxisAlignment.center,
@@ -57,6 +63,9 @@ class _HomeState extends State<Home> {
             ),
             ElevatedButton(
               onPressed: gerarFrase, // Chame o método gerarFrase
+              style: ElevatedButton.styleFrom(
+                primary: Colors.green, // Background color
+              ),
               child: Text(
                 'Clique aqui',
                 style: TextStyle(
